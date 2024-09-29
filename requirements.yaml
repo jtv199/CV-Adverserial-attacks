@@ -1,0 +1,17 @@
+name: adversarial-attacks
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - numpy
+  - matplotlib
+  - pillow
+  - ignite
+  - pandas
+  - pip
+  - pip:
+    - pytorch-ignite
